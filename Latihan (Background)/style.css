@@ -1,0 +1,23 @@
+/* background-color = mengatur warna pada background */
+/* background-image = mengatur gambar yang akan digunakan pada background */
+/* background-position = mengatur posisi gambar pada background */
+/* background-repeat = mengatur jenis pengulangan gambar pada background */
+
+body {
+    background-color: lightblue;
+    background-image: url(../Source/Images/gradient.jpg);
+    background-repeat: repeat-x;
+}
+
+h2 {
+    text-align: center;
+    color: azure;
+}
+
+.image1 {
+    text-align: left;
+}
+
+.image2 {
+    text-align: right;
+}

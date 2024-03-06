@@ -1,0 +1,22 @@
+body {
+    width: 840px;
+    margin:50px auto;
+    font-family: arial;
+    font-size: 6.5em;
+    font-weight: bold;
+    background: black;
+}
+
+div {
+    height: 210px;
+    margin-bottom: 100px;
+    line-height: 200px;
+    text-align: center;
+}
+
+.text1 {
+    background: #def;
+    color: rgba(10,60,150, 0.8);
+    text-shadow: 1px 4px 6px #def, 
+                 0px 0px 0px #000, 
+                 1px 4px 6px #def;

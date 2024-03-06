@@ -1,0 +1,12 @@
+/* display: flex; */
+/* flex-direction = memposisikan content*/
+/* flex-wrap = memposisikan element agar ter-wrap dan tidak memaksakan spacenya*/
+/* justify-content = mengatur rata element yang ada pada container dalam posisi horizontal*/
+/* align-items = mengatur posisi element dalam posisi vertikal*/
+
+.container {
+    width: 600px;
+    height: 150px;
+    margin: 40px auto;
+    border: 3px solid black;
+}

@@ -1,0 +1,22 @@
+/* color = (hexa, rgb)memberi warna pada tulisan */
+/* text-align = (justify = rata kanan kiri)mengatur format paragraf/teks */
+/* text-indent = memberi indentasi pd teks */
+/* text-decoration = mengatur dekorasi pada teks */
+/* text-transform = mengubah jenis huruf menjadi kecil/kapital */
+/* letter-spacing = mengatur spasi antar huruf */
+/* word-spacing = mengatur spasi antar kata */
+
+h2 {
+    color:blueviolet;
+    text-align: center;
+}
+
+p {
+    color: rgb(110, 52, 30);
+    text-indent: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+

@@ -1,0 +1,23 @@
+/* CATATAN */
+/* jika vertical, margin tidak bisa ditambahkan, jadi diambil margin yg nilainya paling besar */
+/* jika horizontal, maka margin bisa ditambahkan*/
+/* margin: auto; //auto berarti element akan diposisikan ke tengan (berdasar parentnya) */
+/* khusus untuk margin kiri dan kanan, maka set margin-left dan margin-right harus sama2 auto, tidak boleh salah satunya saja */
+/* margin: -10; //margin negative digunakan untuk menumpuk element menjadi 1 */
+/* shorthand 1 nilai (margin: 50px) //maka margin ke empat sisi akan di set 50px semua */
+/* shorthand 2 nilai (margin: 50px 100px) //jika ada 2 nilai, maka yg pertama itu adalah margin atas dan bawah, dan nilai yang kedua adalah margin kiri dan kanan */
+/* shorthand 3 nilai (margin: 50px 100px 50px) //jika ada 3 nilai, maka yg pertama itu adalah margin atas dan nilai yang kedua adalah margin kiri dan kanan, dan nilai yang ketiga dalah margin bawah */
+/* shorthand 4 nilai/searah jarum jam (margin: 50px 100px 50px 100px) //jika ada 3 nilai, maka yg pertama itu adalah margin atas dan nilai yang kedua adalah margin kanan, dan nilai yang ketiga dalah margin bawah, dan nilai yg keempat adalah margin kiri */
+
+/* jika ingin set negative margin, maka max itu ditentukan oleh max width atau heightnya */
+
+.satu img {
+    width: 250px;
+    height: 250px;
+}
+
+.dua img {
+    width: 350px; 
+    height: 350px;
+    margin-top: -390px;
+}

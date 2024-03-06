@@ -1,0 +1,69 @@
+        /* scale (angka), scaleX (angka), scaleY(angka) 
+		rotate (deg), rotateX (deg), rotateY(deg) 
+		skew(deg), skewX (deg), skewY (deg) 
+		translate(px), translateX(px), translate(px)    
+ */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 900px;
+    padding: 70px 70px 70px 70px;
+    margin: 20px auto;
+    border: 5px solid black;
+}
+
+.kotak1 {
+    width: 100px;
+    margin-bottom: 10px;
+    height: 100px;
+    background-color: blueviolet;
+    transition: 1s;
+}
+
+.kotak2 {
+    width: 100px;
+    margin-bottom: 10px;
+    height: 100px;
+    background-color: brown;
+    transition: 1s;
+}
+
+.kotak3 {
+    width: 100px;
+    margin-bottom: 10px;
+    height: 100px;
+    background-color: rgb(39, 33, 33);
+    transition: 1s;
+}
+
+.kotak4 {
+    width: 100px;
+    margin-bottom: 10px;
+    height: 100px;
+    background-color: rgb(166, 255, 11);
+    transition: 1s;
+}
+
+.container:hover .kotak1 {
+    transform: rotate(180deg);
+    margin-left: 800px;
+}
+
+.container:hover .kotak2 {
+    transform: rotate(180deg);
+    margin-left: 800px;
+}
+
+.container:hover .kotak3 {
+    margin-left: 800px;
+    transform: rotate(180deg);
+}
+
+.container:hover .kotak4 {
+    margin-left: 800px;
+    transform: rotate(180deg);
+}

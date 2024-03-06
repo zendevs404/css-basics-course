@@ -1,0 +1,31 @@
+.satu {
+    width: 400px;
+    height: 400px;
+    background-image: url(../Source/anggi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 250px;
+    border-radius: 50% 50% 0 50%;
+    background-color: blueviolet;
+}
+
+.dua {
+    width: 400px;
+    margin-left: 250px;
+    height: 400px;
+    background-color: blue;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.dua img {
+    width: 550px;
+}
+
+.tiga {
+    width: 400px;
+    margin-left: 250px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 200px 200px 0 0;
+}
